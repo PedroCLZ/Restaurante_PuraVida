@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;  
+    
+}
+
+.fondo {
+    background-color: #111;
+}
+
+header {
+    text-decoration: none;
+    background-color: #111;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.menu-titulo {
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-menu-link {
+    transition: 0.5s;
+}
+
+.nav-menu-link:hover {
+    background-color: #ff6666;
+    border-radius: 20px;
+}
+
+.aside {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-item {
+    margin: 10px;
+    padding: 1px;
+}
+
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 2px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://th.bing.com/th/id/R.bffc84a485780b0933f93b65de31a193?rik=DX8R3kTrtodiPg&riu=http%3a%2f%2f2.bp.blogspot.com%2f-A09VYwDVsEs%2fUA4ROfbae9I%2fAAAAAAAAACA%2fol1FgPI6Nwc%2fs1600%2fRestaurant_Design_08.jpg&ehk=QgE21FvdycN0gnrzwiBGSTXNxYWDELVoqsy0rp%2f1t48%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: initial;/* Centra la imagen en la pantalla */
+    color: white; /* Establece el color del texto a blanco para que se vea sobre la imagen */
+}
+
+.container {
+    text-align: center; /* Centra el contenido en el contenedor */
+    padding: 10px /* Ajusta el espaciado alrededor del contenido */
+}
+
+
+
+h2 {
+    font-size: 22px; /* Tamaño del título */
+    margin-bottom: 20px; /* Espaciado entre el título y el párrafo */
+}
+
+p {
+    font-size: 14px; /* Tamaño del párrafo */
+}
+
+.texto-principal{
+    margin-bottom: 50px;
+}
+
+.contenedor{
+    max-width: 50%; /* Establece el ancho máximo del contenedor al 50% del ancho de la pantalla */
+    margin-left: 10px;
+    text-align: left; /* Alinea el texto a la izquierda dentro del contenedor */
+}
+.imagen {
+    width: 30%; /* Establece el ancho de la imagen */
+    float: right;
+    margin-right: 10pc;
+}
+
