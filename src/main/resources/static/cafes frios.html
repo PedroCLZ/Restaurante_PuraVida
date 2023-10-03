@@ -1,50 +1,57 @@
 <!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilos.css" type="text/css"/>
+<html>
+    <head>
+        <title>Menú de cafes frios</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/estilos.css" type="text/css"/>
 
-    <title>Menú de cafes frios</title>
-</head>
-<body>
-    <header>
-        <h1>Restaurante delicioso</h1>
-        <nav>
-         <ul>
-                    <li><a class="aside" href="index.html">Inicio</a></li>
-                    <li><a class="aside" href="desayunos.html">Desayunos</a></li>
-                    <li><a class="aside" href="almuerzos.html">Almuerzos</a></li>
-                    <li><a class="aside" href="cafes frios.html">Cafés frio</a></li>
-                    <li><a class="aside" href="cafes calientes.html">Cafés calientes</a></li>
-                    <li><a class="aside" href="reposterias.html">Repostería</a></li>
-                    <li><a class="aside" href="naked cakes.html">Naked Cakes</a></li>
-                    <li><a class="aside" href="menu niños.html">Menu niños</a></li>                  
-                    <li><a class="aside" href="ubicanos.html">Informacion y Direccion</a></li>
-                </ul>
-        </nav>
-    </header>
 
-    <main>
-        <h2>Menú de cafes frios</h2>
-        <!-- Contenido del menú de desayunos, similar para almuerzos, café y repostería -->
-        <div class="menu-item">
-            <img src="img/desayuno1.jpg" alt="Desayuno 1">
-            <h3>Cafe frio 1</h3>
-            <p>Descripción del cafe.</p>
-            <span>$10.99</span>
+    </head>
+    <body>
+        <div class="container">
+
+            <header> 
+                <h1 class="aside"> Restaurante Pura Vida</h1>
+                <nav>
+                    <ul>
+                        <li><a class="nav-menu-link aside" href="index.html">Inicio</a></li>
+                        <li><a class="nav-menu-link aside" href="desayunos.html">Desayunos</a></li>
+                        <li><a class="nav-menu-link aside" href="almuerzos.html">Almuerzos</a></li>
+                        <li><a class="nav-menu-link aside" href="cafes frios.html">Cafés frio</a></li>
+                        <li><a class="nav-menu-link aside" href="cafes calientes.html">Cafés calientes</a></li>
+                        <li><a class="nav-menu-link aside" href="reposterias.html">Repostería</a></li>
+                        <li><a class="nav-menu-link aside" href="naked cakes.html">Naked Cakes</a></li>
+                        <li><a class="nav-menu-link aside" href="menu niños.html">Menu niños</a></li>                  
+                        <li><a class="nav-menu-link aside" href="ubicanos.html">Informacion y Direccion</a></li>
+                    </ul> 
+                </nav> 
+            </header>
+            <h2 class="menu-titulo"><span class="fondo"> Menú de Cafes Frios</span></h2>
         </div>
 
-        <div class="menu-item">
-            <img src="img/desayuno2.jpg" alt="Desayuno 2">
-            <h3>Cafe frio 2</h3>
-            <p>Descripción del cafe.</p>
-            <span>$9.99</span>
-        </div>
-        <!-- Repite esta estructura para otros elementos del menú -->
-    </main>
 
-    <footer>
-        <p>&copy; 2023 Restaurante delicioso. Todos los derechos reservados.</p>
-    </footer>
-</body>
+        <div class="menu-item">           
+            <h3>1. Cold Brew</h3>
+            <img src="img/cafe frio cold brew.jpg" width="250" alt=""/>
+            <p class="contenedor texto">Cafe molido en frio. Con hielo o sin hielo</p>
+            <span>₡2100</span>
+
+
+            <h3>2. Iced Coffe</h3>
+            <img src="img/cafe frio iced coffe.jpg" width="250" alt=""/>
+            <p class="contenedor texto">2 espressos de cafe mas 10oz de agua fria</p>
+            <span>₡1800</span>     
+
+
+
+            <h3>3. Iced Latte</h3>
+            <img src="img/cafe frio iced latte.jpg" width="250" alt=""/>
+            <p class="contenedor texto">2 espressos de cafe mas 10oz de leche</p>
+            <span>₡2200</span>
+        </div>
+
+        <footer>
+            <p>&copy; 2023 Restaurante delicioso. Todos los derechos reservados.</p>
+        </footer>
+    </body>
 </html>

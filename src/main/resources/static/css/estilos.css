@@ -88,7 +88,7 @@ p {
 }
 
 .contenedor{
-    max-width: 50%; /* Establece el ancho máximo del contenedor al 50% del ancho de la pantalla */
+    max-width: 40%; /* Establece el ancho máximo del contenedor al 50% del ancho de la pantalla */
     margin-left: 10px;
     text-align: left; /* Alinea el texto a la izquierda dentro del contenedor */
 }
@@ -96,5 +96,11 @@ p {
     width: 30%; /* Establece el ancho de la imagen */
     float: right;
     margin-right: 10pc;
+}
+
+.texto {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo opaco con una opacidad del 70% (0.7) */ /* Añade espacio interno alrededor del párrafo */
+    color: white; /* Color del texto */   
+    border-radius: 20px;
 }
 

@@ -1,50 +1,57 @@
 <!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilos.css" type="text/css"/>
+<html>
+    <head>
+        <title>Menú de Almuerzos</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/estilos.css" type="text/css"/>
 
-    <title>Menú de Almuerzos</title>
-</head>
-<body>
-    <header>
-        <h1>Restaurante Pura Vida</h1>
-        <nav>
-            <ul>
-                    <li><a class="aside" href="index.html">Inicio</a></li>
-                    <li><a class="aside" href="desayunos.html">Desayunos</a></li>
-                    <li><a class="aside" href="almuerzos.html">Almuerzos</a></li>
-                    <li><a class="aside" href="cafes frios.html">Cafés frio</a></li>
-                    <li><a class="aside" href="cafes calientes.html">Cafés calientes</a></li>
-                    <li><a class="aside" href="reposterias.html">Repostería</a></li>
-                    <li><a class="aside" href="naked cakes.html">Naked Cakes</a></li>
-                    <li><a class="aside" href="menu niños.html">Menu niños</a></li>                  
-                    <li><a class="aside" href="ubicanos.html">Informacion y Direccion</a></li>
-                </ul>
-        </nav>
-    </header>
 
-    <main>
-        <h2 class="menu-titulo"> Menú de Almuerzos</h2>
-        <!-- Contenido del menú de desayunos, similar para almuerzos, café y repostería -->
-        <div class="menu-item">
-            <img src="img/desayuno1.jpg" alt="Desayuno 1">
-            <h3>Almuerzo 1</h3>
-            <p>Descripción del almuerzo.</p>
-            <span>$10.99</span>
+    </head>
+    <body>
+        <div class="container">
+
+            <header> 
+                <h1 class="aside"> Restaurante Pura Vida</h1>
+                <nav>
+                    <ul>
+                        <li><a class="nav-menu-link aside" href="index.html">Inicio</a></li>
+                        <li><a class="nav-menu-link aside" href="desayunos.html">Desayunos</a></li>
+                        <li><a class="nav-menu-link aside" href="almuerzos.html">Almuerzos</a></li>
+                        <li><a class="nav-menu-link aside" href="cafes frios.html">Cafés frio</a></li>
+                        <li><a class="nav-menu-link aside" href="cafes calientes.html">Cafés calientes</a></li>
+                        <li><a class="nav-menu-link aside" href="reposterias.html">Repostería</a></li>
+                        <li><a class="nav-menu-link aside" href="naked cakes.html">Naked Cakes</a></li>
+                        <li><a class="nav-menu-link aside" href="menu niños.html">Menu niños</a></li>                  
+                        <li><a class="nav-menu-link aside" href="ubicanos.html">Informacion y Direccion</a></li>
+                    </ul> 
+                </nav>
+            </header>
+              <h2 class="menu-titulo"><span class="fondo"> Menú de Almuerzos</span></h2>
         </div>
 
-        <div class="menu-item">
-            <img src="img/desayuno2.jpg" alt="Desayuno 2">
-            <h3>Almuerzo 2</h3>
-            <p>Descripción del almuerzo.</p>
-            <span>$9.99</span>
-        </div>
-        <!-- Repite esta estructura para otros elementos del menú -->
-    </main>
+      
+        <div class="menu-item">           
+            <h3>1. Sandwich Cubano</h3>
+            <img src="img/almuerzo cubano.jpg" width="250" alt=""/>
+            <p class="contenedor texto">Lomo de cerdo al horno, queso suizo, mostaza, pepinillos y mojo de naranja</p>
+            <span>₡5900</span>
 
-    <footer>
-        <p>&copy; 2023 Restaurante delicioso. Todos los derechos reservados.</p>
-    </footer>
-</body>
+            
+            <h3>2. Ensalada Caesar</h3>
+            <img src="img/almuerzo Caesar.jpg" width="250" alt=""/>
+            <p class="contenedor texto">Lechugas mixtas. pollo asado, croutones, parmesano, tocineta, lechuga mixta, aderezo caesar.</p>
+            <span>₡7100</span>     
+
+            
+            <h3>3. Bowl Keto </h3>
+            <img src="img/Almuerzo Bowl keto.jpg" width="250" height="250" alt=""/>
+            <p class="contenedor texto"> Camarones, kale y arúgula, aguacate, queso feta, tomate asado, huevo, almendras tostadas y aderezo ranch</p>
+            <span>₡6500</span>
+        </div>
+
+
+        <footer>
+            <p>&copy; 2023 Restaurante delicioso. Todos los derechos reservados.</p>
+        </footer>
+    </body>
 </html>
