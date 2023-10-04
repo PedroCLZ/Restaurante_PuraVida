@@ -1,50 +1,66 @@
 <!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilos.css" type="text/css"/>
+<html>
+    <head>
+        <meta charset="UTF-8">
 
-    <title>Menú de Reposteria</title>
-</head>
-<body>
-    <header>
-        <h1>Restaurante delicioso</h1>
-        <nav>
-           <ul>
-                    <li><a class="aside" href="index.html">Inicio</a></li>
-                    <li><a class="aside" href="desayunos.html">Desayunos</a></li>
-                    <li><a class="aside" href="almuerzos.html">Almuerzos</a></li>
-                    <li><a class="aside" href="cafes frios.html">Cafés frio</a></li>
-                    <li><a class="aside" href="cafes calientes.html">Cafés calientes</a></li>
-                    <li><a class="aside" href="reposterias.html">Repostería</a></li>
-                    <li><a class="aside" href="naked cakes.html">Naked Cakes</a></li>
-                    <li><a class="aside" href="menu niños.html">Menu niños</a></li>                  
-                    <li><a class="aside" href="ubicanos.html">Informacion y Direccion</a></li>
-                </ul>
-        </nav>
-    </header>
+        <link rel="stylesheet" href="css/estilos.css" type="text/css"/>
 
-    <main>
-        <h2>Menú de Desayunos</h2>
-        <!-- Contenido del menú de desayunos, similar para almuerzos, café y repostería -->
-        <div class="menu-item">
-            <img src="img/desayuno1.jpg" alt="Desayuno 1">
-            <h3>Resposteria 1</h3>
-            <p>Descripción de la reposteria.</p>
-            <span>$10.99</span>
+        <title>Menú de Reposteria</title>
+    </head>
+    <body>
+        <div class="container">
+
+            <header> 
+                <h1 class="aside"> Restaurante Pura Vida</h1>
+                <nav>
+                    <ul>
+                        <li><a class="nav-menu-link aside" href="index.html">Inicio</a></li>
+                        <li><a class="nav-menu-link aside" href="desayunos.html">Desayunos</a></li>
+                        <li><a class="nav-menu-link aside" href="almuerzos.html">Almuerzos</a></li>
+                        <li><a class="nav-menu-link aside" href="cafes frios.html">Cafés frio</a></li>
+                        <li><a class="nav-menu-link aside" href="cafes calientes.html">Cafés calientes</a></li>
+                        <li><a class="nav-menu-link aside" href="reposterias.html">Repostería</a></li>
+                        <li><a class="nav-menu-link aside" href="naked cakes.html">Naked Cakes</a></li>
+                        <li><a class="nav-menu-link aside" href="menu_niños.html">Menu niños</a></li>                  
+                        <li><a class="nav-menu-link aside" href="ubicanos.html">Informacion y Direccion</a></li>
+                    </ul> 
+                </nav> 
+            </header>
+            <h2 class="menu-titulo"><span class="fondo"> Menú de Reposteria</span></h2>
         </div>
 
-        <div class="menu-item">
-            <img src="img/desayuno2.jpg" alt="Desayuno 2">
-            <h3>Reposteria 2</h3>
-            <p>Descripción de la reposteria.</p>
-            <span>$9.99</span>
-        </div>
-        <!-- Repite esta estructura para otros elementos del menú -->
-    </main>
 
-    <footer>
-        <p>&copy; 2023 Restaurante delicioso. Todos los derechos reservados.</p>
-    </footer>
-</body>
+        <div class="menu-item">           
+            <h3>1. Naked Chocolate intenso</h3>
+            <img src="img/naked chocolate intenso.jpg" width="200" alt=""/>
+            <p><span class="texto">Cake de CHOCOLATE oscuro, relleno de ganache de caramelo & chocolate blanco con crujiente de arroz inflado</span></p>
+            <p><span class="texto">10/12 personas ₡24.500</span></p>   
+            <p><span class="texto">18/22 personas ₡32.500</span></p>   
+            <p><span class="texto">35/40 personas ₡48.500</span></p>   
+            <p><span class="texto">56 personas ₡69.500</span></p>  
+
+
+            <h3>2. Naked Confetti</h3>
+            <img src="img/naked confetti.jpg" width="200" alt=""/>
+            <p><span class="texto">Cake de CONFETTI relleno de dulce de leche artesanal, buttercream de vainilla y galleta crujiente de confetti</span></p>
+            <p><span class="texto">10/12 personas ₡24.500</span></p> 
+            <p><span class="texto">18/22 personas ₡32.500</span></p> 
+            <p><span class="texto">35/40 personas ₡48.500</span></p> 
+            <p><span class="texto">56 personas ₡69.500</span></p>     
+
+
+
+            <h3>3. Naked Frutos Rojos</h3>
+            <img src="img/naked frutos rojos.jpg" width="200" alt=""/>
+            <p><span class="texto">Cake de vainilla, relleno de mermelada de FRUTOS ROJOS, crocante de limón y cremoso de cheesecake.</span></p>
+            <p><span class="texto">10/12 personas ₡24.500</span></p>   
+            <p><span class="texto">18/22 personas ₡32.500</span></p>   
+            <p><span class="texto">35/40 personas ₡48.500</span></p>   
+            <p><span class="texto">56 personas ₡69.500</span></p>   
+        </div>
+
+        <footer>
+            <p>&copy; 2023 Restaurante delicioso. Todos los derechos reservados.</p>
+        </footer>
+    </body>
 </html>

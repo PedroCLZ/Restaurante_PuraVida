@@ -1,50 +1,60 @@
 <!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilos.css" type="text/css"/>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/estilos.css" type="text/css"/>
 
-    <title>Menú de Reposteria</title>
-</head>
-<body>
-    <header>
-        <h1>Restaurante delicioso</h1>
-        <nav>
-          <ul>
-                    <li><a class="aside" href="index.html">Inicio</a></li>
-                    <li><a class="aside" href="desayunos.html">Desayunos</a></li>
-                    <li><a class="aside" href="almuerzos.html">Almuerzos</a></li>
-                    <li><a class="aside" href="cafes frios.html">Cafés frio</a></li>
-                    <li><a class="aside" href="cafes calientes.html">Cafés calientes</a></li>
-                    <li><a class="aside" href="reposterias.html">Repostería</a></li>
-                    <li><a class="aside" href="naked cakes.html">Naked Cakes</a></li>
-                    <li><a class="aside" href="menu niños.html">Menu niños</a></li>                  
-                    <li><a class="aside" href="ubicanos.html">Informacion y Direccion</a></li>
-                </ul>
-        </nav>
-    </header>
+        <title>Menú de Reposteria</title>
+    </head>
+    <body>
+       <div class="container">
 
-    <main>
-        <h2>Menú de Reposteria</h2>
-        <!-- Contenido del menú de desayunos, similar para almuerzos, café y repostería -->
-        <div class="menu-item">
-            <img src="img/desayuno1.jpg" alt="Desayuno 1">
-            <h3>Resposteria 1</h3>
-            <p>Descripción de la reposteria.</p>
-            <span>$10.99</span>
-        </div>
+            <header> 
+                <h1 class="aside"> Restaurante Pura Vida</h1>
+                <nav>
+                    <ul>
+                        <li><a class="nav-menu-link aside" href="index.html">Inicio</a></li>
+                        <li><a class="nav-menu-link aside" href="desayunos.html">Desayunos</a></li>
+                        <li><a class="nav-menu-link aside" href="almuerzos.html">Almuerzos</a></li>
+                        <li><a class="nav-menu-link aside" href="cafes frios.html">Cafés frio</a></li>
+                        <li><a class="nav-menu-link aside" href="cafes calientes.html">Cafés calientes</a></li>
+                        <li><a class="nav-menu-link aside" href="reposterias.html">Repostería</a></li>
+                        <li><a class="nav-menu-link aside" href="naked cakes.html">Naked Cakes</a></li>
+                        <li><a class="nav-menu-link aside" href="menu_niños.html">Menu niños</a></li>                  
+                        <li><a class="nav-menu-link aside" href="ubicanos.html">Informacion y Direccion</a></li>
+                    </ul> 
+                </nav> 
+            </header>
+            <h2 class="menu-titulo"><span class="fondo"> Menú de Reposteria</span></h2>
+       </div>
 
-        <div class="menu-item">
-            <img src="img/desayuno2.jpg" alt="Desayuno 2">
-            <h3>Reposteria 2</h3>
-            <p>Descripción de la reposteria.</p>
-            <span>$9.99</span>
-        </div>
-        <!-- Repite esta estructura para otros elementos del menú -->
-    </main>
 
-    <footer>
-        <p>&copy; 2023 Restaurante delicioso. Todos los derechos reservados.</p>
-    </footer>
-</body>
+       <div class="menu-item">           
+           <h3>1. Reposteria Dulce y Salado</h3>
+           <img src="img/reposteria dulce salado.JPG" width="250" alt=""/>
+           <p><span class="texto">2 mini chocolates chip, 2 mini avena, 2 mini rollos de espinaca,
+                   2 mini trenzas de parmesano, 1 brownie</span></p>
+           <p><span class="texto">₡8.500</span></p>   
+
+
+
+           <h3>2. Reposteria Surtido de Galletas</h3>
+           <img src="img/reposteria galletas.jpg" width="250" alt=""/>
+           <p><span class="texto">6 mini chocoalte chip, 6 mini avena, 6 mini choco pecanas</span></p>
+           <p><span class="texto">₡11.000</span></p> 
+
+
+
+           <h3>3. Reposteria de Queque y Galletas</h3> 
+           <img src="img/reposteria queque galleta.jpg" width="250" alt=""/>
+           <p><span class="texto">2 mini chocolate chip, 2 mini avena, 2 mini choco pecanas,
+                   quequito de naranja, financier de frambuesa y queque de banano</span></p>
+           <p><span class="texto">₡8.900</span></p>   
+
+       </div>
+
+       <footer>
+           <p>&copy; 2023 Restaurante delicioso. Todos los derechos reservados.</p>
+       </footer>
+    </body>
 </html>

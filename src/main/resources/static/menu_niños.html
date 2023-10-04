@@ -1,50 +1,59 @@
 <!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilos.css" type="text/css"/>
+<html>
+    <head>
+        <title>Menú de Niños</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/estilos.css" type="text/css"/>
 
-    <title>Menú de Niños</title>
-</head>
-<body>
-    <header>
-        <h1>Restaurante delicioso</h1>
-        <nav>
-            <ul>
-                    <li><a class="aside" href="index.html">Inicio</a></li>
-                    <li><a class="aside" href="desayunos.html">Desayunos</a></li>
-                    <li><a class="aside" href="almuerzos.html">Almuerzos</a></li>
-                    <li><a class="aside" href="cafes frios.html">Cafés frio</a></li>
-                    <li><a class="aside" href="cafes calientes.html">Cafés calientes</a></li>
-                    <li><a class="aside" href="reposterias.html">Repostería</a></li>
-                    <li><a class="aside" href="naked cakes.html">Naked Cakes</a></li>
-                    <li><a class="aside" href="menu niños.html">Menu niños</a></li>                  
-                    <li><a class="aside" href="ubicanos.html">Informacion y Direccion</a></li>
-                </ul>
-        </nav>
-    </header>
 
-    <main>
-        <h2>Menú de Niños</h2>
-        <!-- Contenido del menú de desayunos, similar para almuerzos, café y repostería -->
-        <div class="menu-item">
-            <img src="img/desayuno1.jpg" alt="Desayuno 1">
-            <h3>Opcion  1</h3>
-            <p>Descripción.</p>
-            <span>$10.99</span>
+    </head>
+    <body>
+        <div class="container">
+
+            <header> 
+                <h1 class="aside"> Restaurante Pura Vida</h1>
+                <nav>
+                    <ul>
+                        <li><a class="nav-menu-link aside" href="index.html">Inicio</a></li>
+                        <li><a class="nav-menu-link aside" href="desayunos.html">Desayunos</a></li>
+                        <li><a class="nav-menu-link aside" href="almuerzos.html">Almuerzos</a></li>
+                        <li><a class="nav-menu-link aside" href="cafes frios.html">Cafés frio</a></li>
+                        <li><a class="nav-menu-link aside" href="cafes calientes.html">Cafés calientes</a></li>
+                        <li><a class="nav-menu-link aside" href="reposterias.html">Repostería</a></li>
+                        <li><a class="nav-menu-link aside" href="naked cakes.html">Naked Cakes</a></li>
+                        <li><a class="nav-menu-link aside" href="menu_niños.html">Menu niños</a></li>                  
+                        <li><a class="nav-menu-link aside" href="ubicanos.html">Informacion y Direccion</a></li>
+                    </ul> 
+                </nav> 
+            </header>
+            <h2 class="menu-titulo"><span class="fondo"> Menú Para Niños</span></h2>
         </div>
 
-        <div class="menu-item">
-            <img src="img/desayuno2.jpg" alt="Desayuno 2">
-            <h3>Opcion  2</h3>
-            <p>Descripción.</p>
-            <span>$9.99</span>
-        </div>
-        <!-- Repite esta estructura para otros elementos del menú -->
-    </main>
+        
+        <div class="menu-item">           
+            <h3>1. Sandwich de Jamon y Queso</h3>
+            <img src="img/menu ninos jamon y queso.jpg" alt=""/>
+            <p><span class="texto">Sandwich prensado con jamon de pavo, queso amarillo y pesto</span></p>
+            <p><span class="texto">₡3500</span></p>   
 
-    <footer>
-        <p>&copy; 2023 Restaurante delicioso. Todos los derechos reservados.</p>
-    </footer>
-</body>
+
+
+            <h3>2. Papas Fritas</h3>
+            <img src="img/menu ninos papas fritas.jpg" alt=""/>
+            <p><span class="texto">Deliciosas papas fritas acompañadas de tu salsa favorita a escoger</span></p>
+            <p><span class="texto">₡2500</span></p> 
+
+
+
+            <h3>3. Helados de Distintos Sabores</h3>
+            <img src="img/menu ninos helado.jpg" alt=""/>
+            <p><span class="texto">Helados de vainilla, chocolate, chicle, fresa, choco-chips</span></p>
+            <p><span class="texto">El cono ₡800, bola de helado extra ₡300</span></p>   
+
+        </div>
+
+        <footer>
+            <p>&copy; 2023 Restaurante delicioso. Todos los derechos reservados.</p>
+        </footer>
+    </body>
 </html>
