@@ -101,8 +101,43 @@ p {
 
 .texto {
     background-color: rgba(0, 0, 0, 0.7); /* Fondo opaco con una opacidad del 70% (0.7) */ /* Añade espacio interno alrededor del párrafo */
-    color: white; /* Color del texto */   
+    color: white; /* Color del texto */
     border-radius: 40px;
     text-align: center;
 }
 
+.btn-instagram {
+    background-color: #405de6;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.btn-instagram:hover {
+    background-color: #3f4b5b;
+}
+
+
+
+.fab {
+
+}
+
+.fa-instagram {
+
+}
+
+.tabla-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* 100% de la altura de la ventana */
+}
+
+table {
+    /* Estilos adicionales para la tabla si lo deseas */
+    border-collapse: collapse;
+    width: 10%; /* Ancho de la tabla */
+    /* Otros estilos de la tabla aquí */
+}
